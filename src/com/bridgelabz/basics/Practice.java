@@ -20,6 +20,7 @@ public class Practice {
     }
 
     public static void main(String[] args) {
+        System.out.println("main method");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the limit");
 
@@ -31,7 +32,7 @@ public class Practice {
             int z = scanner.nextInt();
             arr[i] = z;
         }
-        triplets(arr);
+//        triplets(arr);
 
     }
 
